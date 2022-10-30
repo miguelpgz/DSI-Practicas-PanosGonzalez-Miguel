@@ -10,27 +10,63 @@
 <body>
 
     <header>
-        <nav>
-            <button class="button">VoulcanWiki</button>
+        <h1 class="site__title">WikiVoulcans
+        </h1>
+
+        <nav class="navegacion">
+            <ul class="navegacion__menu">
+                <li>
+                    <a class="navegacion__menu__art1" href="#art1" onclick=href>Relacion vulcanismo y placas
+                        <ul class="navegacion__menu__art1__submenu">
+                            <li><a href="#art1_1" onclick=href>Límites de placas convergentes</a></li>
+                            <li><a href="#art1_2" onclick=href>Placas divergentes</a></li>
+                            <li><a href="#art1_3" onclick=href>Puntos calientes</a></li>
+                        </ul>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="navegacion__menu__art2" href="#art2" onclick=href>Tipos de volcanes según su actividad
+                        <ul class="navegacion__menu__art2__submenu">
+                            <li><a href="#art2_1" onclick=href>Volcanes activos</a></li>
+                            <li><a href="#art2_2" onclick=href>Volcanes durmientes o inactivos</a></li>
+                            <li><a href="#art2_3" onclick=href>Volcanes extintos</a></li>
+                        </ul> 
+                    </a>
+                </li>
+
+
+                <li>
+                    <a class="navegacion__menu__art3" href="#art3" onclick=href>Tipos de erupciones volcánicas
+                        <ul class="navegacion__menu__art3__submenu">
+                            <li><a href="#art3_1" onclick=href>Erupción volcánica</a></li>
+                            <li><a href="#art3_2" onclick=href>Erupción hawaiana</a></li>
+                            <li><a href="#art3_3" onclick=href>Erupción estromboliana</a></li>
+                            <li><a href="#art3_4" onclick=href>Erupci  ón vulcaniana</a></li>
+                            <li><a href="#art3_5" onclick=href>Erupción pliniana</a></li>
+                        
+                        </ul>
+                    </a>
+                </li>
+
+                <li><a class="navegacion__menu__art4" href="#art4" onclick=href>Chimenea volcánica y cono volcánico</a></li>  
+                <li><a class="navegacion__menu__art5" href="#art5" onclick=href>Cuevas volcánicas</a></li>
+                <li>
+                    <a class="navegacion__menu__art6" href="#art6" onclick=href>Material volcánico
+                        <ul class="navegacion__menu__art6__submenu">
+                            <li><a href="#art6_1" onclick=href>Rocas intrusivas</a></li>
+                            <li><a href="#art6_2" onclick=href>Rocas extrusivas</a></li>  
+                        </ul>
+                    </a>
+                </li>
+
+                <li><a class="navegacion__menu__art7" href="#art7" onclick=href>Volcanes extraterrestres</a></li>
+            </ul>
+
         </nav>
+
     </header>
 
-    <section>
-        <div class="index">
-            <h1>Indice</h1>
-            <p><a class="art1" href="#art1" onclick=href>Relacion vulcanismo y placas</a></p>
-            <p><a class="art3" href="#art2" onclick=href>Tipos de volcanes según su actividad</a></p>
-            <p><a class="art3" href="#art3" onclick=href>Tipos de erupciones volcánicas</a></p>
-            <p><a class="art4" href="#art4" onclick=href>Flujo piroclástico</a></p>
-            <p><a class="art5" href="#art5" onclick=href>Lahar</a></p>
-            <p><a class="art6" href="#art6" onclick=href>Caldera volcánica</a></p>
-            <p><a class="art7" href="#art7" onclick=href>Domo de lava</a></p>
-            <p><a class="art8" href="#art8" onclick=href>Chimenea volcánica y cono volcánico</a></p>
-            <p><a class="art9" href="#art9" onclick=href>Cuevas volcánicas</a></p>
-            <p><a class="art10" href="#art10" onclick=href>Material volcánico</a></p>
-            <p><a class="art11" href="#art11" onclick=href>Volcanes extraterrestres</a></p>
-        </div>
-    </section>
 
     <section>
 
@@ -58,15 +94,15 @@
         <article class="article__1" id="art1">
             <h2>Relación entre vulcanismo y las placas tectónicas</h2>
             <p>
-                <h3> Límites de placa divergentes </h3>
+                <h3 id="art1_1"> Límites de placa divergentes </h3>
                 En las crestas oceánicas medias, dos placas tectónicas divergen entre sí a medida que se forma una nueva corteza oceánica por el enfriamiento y la solidificación de la roca fundida caliente. Debido a que la corteza es muy delgada en estas crestas debido al tirón de las placas tectónicas, la liberación de presión conduce a la expansión adiabática (sin transferencia de calor o materia) y al derretimiento parcial del manto, causando volcanismo y creando una nueva corteza oceánica. La mayoría de los límites de placas divergentes se encuentran en el fondo de los océanos; por lo tanto, la mayor parte de la actividad volcánica en la Tierra es submarina, formando un nuevo fondo marino. Los fumadores negros (también conocidos como respiraderos de aguas profundas) son evidencia de este tipo de actividad volcánica. Donde la cresta oceánica media está sobre el nivel del mar, se forman islas volcánicas; Por ejemplo, Islandia.
                 <img src="images/placadivergente.png" width="400" height="250" >
 
-                <h3>Placas convergentes</h3>
+                <h3 id="art1_2">Placas convergentes</h3>
                 Las zonas de subducción son lugares donde chocan dos placas, generalmente una placa oceánica y una placa continental. En este caso, la placa oceánica se subduce, o se sumerge, debajo de la placa continental, formando una trinchera oceánica profunda en alta mar. En un proceso llamado fusión de flujo, el agua liberada de la placa subductora reduce la temperatura de fusión de la cuña del manto suprayacente, creando así magma. Este magma tiende a ser extremadamente viscoso debido a su alto contenido de sílice, por lo que a menudo no alcanza la superficie sino que se enfría y solidifica en profundidad. Cuando llega a la superficie, sin embargo, se forma un volcán. Ejemplos típicos son el Monte Etna y los volcanes en el Anillo de Fuego del Pacífico.
                 <img src="images/placaconvergente.png" width="400" height="250" >
 
-                <h3>Puntos calientes</h3>
+                <h3 id="art1_2">Puntos calientes</h3>
                 Los puntos calientes son áreas volcánicas que se cree que están formadas por plumas de manto, que se supone que son columnas de material caliente que se elevan desde el límite núcleo-manto en un espacio fijo que causa la fusión de grandes volúmenes. Debido a que las placas tectónicas se mueven a través de ellas, cada volcán se vuelve inactivo y eventualmente se vuelve a formar a medida que la placa avanza sobre el penacho postulado. Se dice que las islas hawaianas se formaron de esa manera; también lo ha hecho la llanura del río Snake, con la caldera de Yellowstone como parte de la placa de América del Norte sobre el punto caliente. Esta teoría, sin embargo, ha sido puesta en duda.
             </p>
         </article>
@@ -76,7 +112,7 @@
             <p>Los volcanes, teniendo en cuenta la frecuencia de sus erupciones, se pueden clasificar en tres tipos: activos, inactivos (durmientes) o extintos.</p>
 
             <p>
-                <h3>Volcanes activos</h3>
+                <h3 id="art2_1">Volcanes activos</h3>
                 Los volcanes activos son aquellos que pueden entrar en actividad eruptiva en cualquier momento, es decir, que permanecen en estado de latencia.
                 Esto ocurre con la mayoría de los volcanes, pues ocasionalmente entran en actividad, permaneciendo en reposo la mayor parte del tiempo. El período de actividad eruptiva puede durar desde una hora hasta varios años, como fue el caso del volcán de Pacaya y del Irazú. A día de hoy, no se ha descubierto ningún método seguro para predecir las erupciones.
                 
@@ -84,7 +120,7 @@
             <img src="images/volcanactivo.png" width="400" height="250" >
 
             <p>
-                <h3>Volcanes durmientes o inactivos</h3>
+                <h3 id="art2_2">Volcanes durmientes o inactivos</h3>
                 Los volcanes durmientes o inactivos son aquellos que mantienen ciertos signos de actividad, como la presencia de aguas termales, y han entrado en actividad esporádicamente. Dentro de esta categoría suelen incluirse las fumarolas y los volcanes con largos períodos de inactividad entre una erupción y otra. Un volcán se considera durmiente si desde hace siglos no ha tenido una erupción.
                 
             </p>
@@ -92,7 +128,7 @@
 
             <p>
                 
-                <h3>Volcanes extintos</h3>
+                <h3 id="art2_3">Volcanes extintos</h3>
                 Los volcanes extintos son aquellos cuya última erupción fue registrada hace más de 25 000 años. Sin embargo, no se descarta la posibilidad de que puedan despertar y liberar una erupción más fuerte que la de un volcán que está activo, causando grandes desastres. También se les llama extintos porque fueron alejados de su fuente de magma, perdiendo poco a poco su actividad, esto sucede únicamente en volcanes de punto caliente, a diferencia de los volcanes de zonas de subducción.
                 
             </p>
@@ -107,30 +143,22 @@
 
             <p>
 
-            <h3>Erupción volcánica</h3>
+            <h3 id="art3_1">Erupción volcánica</h3>
             La temperatura, composición, viscosidad y elementos disueltos en el magma son los factores que determinan el tipo de erupción y la cantidad de productos volátiles que la acompañan.
             
-            <h3>Erupción hawaiana</h3>
+            <h3 id="art3_2">Erupción hawaiana</h3>
             En este tipo de erupción, la lava generalmente es bastante fluida y no ocurren desprendimientos gaseosos explosivos. Estas lavas se desbordan cuando rebasan el cráter y se deslizan con facilidad por la ladera del volcán, formando verdaderas corrientes que recorren grandes distancias. Por esta razón, los volcanes de tipo hawaiano son de pendiente suave. Algunos residuos de lava, al ser arrastrados por el viento, forman hilos cristalinos que los nativos hawaianos llaman cabellos de la diosa Pele, la diosa del fuego. El volcán hawaiano más famoso es el Kilauea.
             
-            <h3>Estromboliana o mixta</h3>
+            <h3 id="art3_3">Estromboliana o mixta</h3>
             Este tipo de erupción recibe el nombre del Estrómboli, volcán de las islas Eolias (mar Tirreno), al norte de Sicilia. Se origina cuando hay alternancia de los materiales en erupción, formándose un cono estratificado en capas de lavas fluidas y materiales sólidos. La lava es fluida, va desprendiendo gases abundantes y violentos con proyecciones de escorias, bombas y lapilli. Debido a que los gases pueden desprenderse con facilidad, no se producen pulverizaciones o cenizas. Cuando la lava rebosa por los bordes del cráter, desciende por las laderas y barrancos, pero no alcanza grandes extensiones como en las erupciones de tipo hawaiano.
 
-            <h3>Vulcaniana</h3>
+            <h3 id="art3_4">Vulcaniana</h3>
             Del nombre del volcán Vulcano en las islas Lipari. Esta erupción se caracteriza porque en ella se desprenden grandes cantidades de gases, la lava liberada es poco fluida y se consolida con rapidez. En este tipo de erupción, las explosiones son muy fuertes y pulverizan la lava, produciendo mucha ceniza, la cual es lanzada al aire acompañada de otros materiales fragmentarios. Cuando el magma sale al exterior en forma de lava, se solidifica rápidamente, pero los gases que se desprenden rompen y resquebrajan su superficie, volviéndola áspera y muy irregular y formando lava de tipo Aa. Los conos de estos volcanes son de pendiente muy inclinada.
             
 
-            <h3>Pliniana o vesubiana</h3>
+            <h3 id="art3_5">Pliniana o vesubiana</h3>
             Nombrada así en honor a Plinio el Joven, difiere de la erupción volcánica en que en esta la presión de los gases es muy fuerte y produce explosiones muy violentas. Forma nubes ardientes que, al enfriarse, generan precipitaciones de cenizas, las cuales pueden llegar a sepultar ciudades, como ocurrió con Pompeya y Herculano por la actividad del volcán Vesubio. Se caracteriza por alternar erupciones de piroclasto con erupciones de coladas de lava, dando lugar a una superposición en estratos, lo que hace que este tipo de volcanes alcance grandes dimensiones. Otros volcanes son el Teide, el Popocatépetl y el Fujiyama.
             
-            <h3>Freatomagmática o surtseyana</h3>
-            Los volcanes de tipo freatomagmático se encuentran en aguas someras, presentan un lago en el interior de su cráter y en ocasiones forman atolones. Sus erupciones son extraordinariamente violentas, ya que a la energía propia del volcán se le suma la expansión del vapor de agua súbitamente calentado. Normalmente no presentan emisiones de lava ni extrusiones de rocas. Algunas de las mayores erupciones freáticas son las del Krakatoa, el Kīlauea y la Isla de Surtsey.
-            
-            <h3>Peleana</h3>
-            La lava en esta erupción es extremadamente viscosa y se consolida con gran rapidez, llegando a tapar por completo el cráter formando un pitón o aguja. La enorme presión de los gases sin salida provoca una enorme explosión que levanta el pitón, o bien destroza la parte superior de la ladera. Así ocurrió el 8 de mayo de 1902, cuando las paredes del volcán cedieron a tan enorme empuje que se abrió un conducto por el que salieron con extraordinaria fuerza los gases acumulados a elevada temperatura y que, mezclados con cenizas, formaron una nube ardiente que ocasionó 28 000 víctimas.
-
-            <h3>Erupciones submarinas</h3>
-            En el fondo oceánico se producen erupciones volcánicas cuyas lavas pueden formar islas volcánicas si llegan a la superficie. Las erupciones suelen ser de corta duración en la mayoría de los casos, debido al equilibrio isostático de las lavas al enfriarse cuando entran en contacto con el agua y también por la erosión marina. Algunas islas como las Cícladas en Grecia o Las islas Canarias en España tienen este origen.
 
             </p>
             <img src="images/tipos erupciones.jpg" width="400" height="250" >
@@ -141,66 +169,10 @@
         
         
 
+        
+
+
         <article class="article__4" id="art4">
-            <h2>Flujo piroclástico</h2>
-
-            <p>
-                Flujo piroclástico expulsado por el volcán Mayón en Filipinas. Cuando las erupciones de un volcán llegan acompañadas de gases calientes y cenizas se produce lo que se conoce como flujo piroclástico o «nube ardiente». También conocida como avalancha incandescente, el flujo piroclástico se desplaza pendiente abajo a velocidades cercanas a los 200 km/h. La sección basal de estas nubes contienen gases calientes y partículas que flotan en ellos. De esta forma, las nubes transportan fragmentos de rocas que gracias al rebote de los gases calientes en expansión se depositan a lo largo de más de 100 km desde su punto de origen. 
-            </p>
-
-            <p>
-                En 1902 una nube ardiente de un pequeño volcán llamado Monte Pelée en la isla caribeña de Martinica destruyó la ciudad portuaria de San Pedro. La destrucción fue tan devastadora que murió casi toda la población (unos 28 000 habitantes). A diferencia de Pompeya, que quedó enterrada en un manto de cenizas en un plazo de tres días y las casas quedaron intactas (salvo los techos por el peso de las cenizas), la ciudad de San Pedro fue destruida solo en minutos y la energía liberada fue tal que los árboles fueron arrancados de raíz, las paredes de las casas desaparecieron y las monturas de los cañones se desintegraron. La erupción del Monte Pelée muestra cuan distintos pueden ser dos volcanes del mismo tipo.
-            </p>
-
-
-            <img src="images/flujopiroclastico.png" width="400" height="250" >
-
-        </article>
-
-        <article class="article__5" id="art5">
-            <h2>Lahar</h2>
-
-            <p>
-                Los conos compuestos también producen coladas de barro llamadas lahar, una palabra de origen indonesio. Estos flujos se producen cuando las cenizas y derrubios volcánicos se saturan de agua y descienden pendiente abajo, normalmente siguiendo los cauces de los ríos. Algunos de los lahares se producen cuando la saturación es provocada por la lluvia, mientras que en otros casos cuando grandes volúmenes de hielo y nieve se funden por una erupción volcánica. En Islandia, el último caso se denomina jökulhlaup y es un fenómeno devastador.
-                Destrucciones importantes de lahares se dieron en 1980 con la erupción del Monte Santa Helena, en Estados Unidos, que a pesar de los destrozos producidos, no produjo muchas víctimas debido a que la región está poco poblada. Otro fue en 1985 con la erupción del Nevado del Ruiz, en Colombia, la cual generó un lahar que acabó con la vida de 25 000 personas.
-            </p>
-            <img src="images/lahar.png" width="400" height="250" >
-
-
-        </article>
-
-        <article class="article__6" id="art6">
-            <h2>Caldera volcánica</h2>
-
-            <p>
-                La mayoría de los volcanes presentan en su cima un cráter de paredes empinadas, por el interior. Cuando el cráter supera 1 km de diámetro se denomina caldera volcánica.
-                Las calderas son estructuras de forma circular y la mayoría se forma cuando la estructura volcánica se hunde sobre la cámara magmática parcialmente vacía que se sitúa por debajo. Si bien la mayoría de las calderas se crea por el hundimiento producido después de una erupción explosiva, esto no es así en todos los casos.
-            </p>
-
-            <p>
-                En el caso de los enormes volcanes en escudo de Hawái, las calderas se crearon por la continua subsidencia a medida que el magma se drenaba desde la cámara magmática durante las erupciones laterales. También las calderas de las islas Galápagos se han ido hundiendo por derrames laterales.
-                Las calderas de gran tamaño se forman cuando un cuerpo lavático granítico (félsico) se ubica cerca de la superficie curvando de esta manera las rocas superiores. Posteriormente, una fractura en el techo permite al magma rico en gases y muy viscoso ascender hasta la superficie, donde expulsa de manera explosiva, enormes volúmenes de material piroclástico, fundamentalmente cenizas y fragmentos de pumita. Estos materiales se denominan coladas piroclásticas y pueden alcanzar velocidades de 100 km/h. Cuando estos materiales se detienen, los fragmentos calientes se fusionan para formar una toba soldada que se asemeja a una colada de lava solidificada. Finalmente, el techo se derrumba dando lugar a una caldera. Este procedimiento puede repetirse varias veces en el mismo lugar.
-            </p>
-            
-            <p>
-                Se conocen al menos 138 calderas que superan los 5 km de diámetro. Muchas de estas calderas son difíciles de ubicar, por lo que han sido identificadas con imágenes de satélites. Entre las más importantes se encuentra La Garita con unos 32 km de diámetro y una longitud de 80 que está ubicada en las montañas de San Juan al sur del estado de Colorado.
-            </p>
-            <img src="images/calderavolcanica.png" width="400" height="250" >
-
-        </article>
-
-        <article class="article__7" id="art7">
-            <h2>Domo de lava</h2>
-
-            <p>
-                La lava rica en sílice es viscosa y por lo tanto, apenas fluye; cuando es extruida fuera de la chimenea puede producir una masa bulbosa de lava solidificada que se denomina domo de lava. Debido a su viscosidad, la mayoría está compuesto por riolitas y otros por obsidianas. La mayoría de los domos volcánicos se desarrollan a partir de una erupción explosiva de un magma rico en gases.
-                Domos de lava en el cráter del Monte Santa Helena (Estados Unidos).
-            </p>
-            <img src="images/domolava.png" width="400" height="250" >
-
-        </article>
-
-        <article class="article__8" id="art8">
             <h2>Chimenea volcánica y cono volcánico</h2>
 
             <p>
@@ -221,7 +193,7 @@
 
         </article>
         
-        <article class="article__9" id="art9">            
+        <article class="article__5" id="art5">            
             <h2>Cuevas volcánicas</h2>
 
             <p>
@@ -231,17 +203,17 @@
 
         </article>
         
-        <article class="article__10" id="art10">
+        <article class="article__6" id="art6">
             <h2>Material volcánico</h2>
             El material volcánico se forma de rocas intrusivas (en el interior) y extrusivas (en el exterior):
             <p>
-                <h3>Las intrusivas</h3>
+                <h3 id="art6_1">Las intrusivas</h3>
                 peridotita (Au, Ag, Pt, Ni y Pb) y granito que posee Cuarzo (SiO2), Mica(SiAlx) y olivino (FeOx).
                 
             </p>
 
             <p>
-                <h3>Las extrusivas</h3>
+                <h3 id="art6_2">Las extrusivas</h3>
                 basalto, que tiene feldespato (KALSi3O4), plagioclasas (CaAl2SI2O8), piroxeno (Si-XOH) y magnetita Obsidiana: KAlSi3O4 y SiO2
                 
             </p>
@@ -255,7 +227,7 @@
 
         </article>
 
-        <article class="article__11" id="art11">
+        <article class="article__7" id="art7">
             <h2>Volcanes extraterrestres</h2>
 
             <p>

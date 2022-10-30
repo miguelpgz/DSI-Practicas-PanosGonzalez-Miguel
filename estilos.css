@@ -1,3 +1,119 @@
-body{
-    background:lightgray;
+*{
+    margin:0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
+body{
+    background-color: aliceblue;
+}
+
+.site__title{
+    background-color: brown;
+    color: rgb(31, 32, 34);
+    text-shadow: 2px 2px rgb(219, 205, 205);
+    text-align: center;
+}
+.navegacion{
+    width: 1800px;
+    margin: 30px auto;
+    background-color: whitesmoke;
+
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.navegacion__menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.navegacion__menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.navegacion__menu li a:hover{
+    color:red;   
+}
+
+/* Submenu 1*/
+
+.navegacion__menu__art1__submenu{
+    position: absolute;
+    background-color: rgb(52, 53, 53);;
+    width: 120%;
+    display: none;
+}
+.navegacion__menu__art1__submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.navegacion__menu li:hover .navegacion__menu__art1__submenu{
+    display: block;
+}
+
+/* Submenu 2*/
+
+.navegacion__menu__art2__submenu{
+    position: absolute;
+    background-color: rgb(52, 53, 53);
+    display: none;
+}
+.navegacion__menu__art2__submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.navegacion__menu li:hover .navegacion__menu__art2__submenu{
+    display: block;
+}
+
+/* Submenu 3*/
+
+.navegacion__menu__art3__submenu{
+    position: absolute;
+    background-color: rgb(52, 53, 53);
+    display: none;
+}
+.navegacion__menu__art3__submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.navegacion__menu li:hover .navegacion__menu__art3__submenu{
+    display: block;
+}
+/* Submenu 4*/
+.navegacion__menu__art6__submenu{
+    position: absolute;
+    background-color: rgb(52, 53, 53);;
+    display: none;
+}
+.navegacion__menu__art6__submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.navegacion__menu li:hover .navegacion__menu__art6__submenu{
+    display: block;
+}
+
