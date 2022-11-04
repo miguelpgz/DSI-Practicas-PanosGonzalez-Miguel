@@ -19,14 +19,15 @@ p{
     padding-right: 5px;
     padding-bottom: 5px;
     padding-top: 5px;
+    text-align: justify;
     
     
 }  
 
-.voulcan__description{
+/* .voulcan__description{
     margin: 30px;
     font-family: 'Roboto', sans-serif ;
-}
+} */
 
 .description__articles{
     margin: 30px;
@@ -36,41 +37,12 @@ p{
 
 
 
-/* .description__articles article div img{
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 200px;
-    max-width: 100%;
-    height: fit-content;
-    float: right;
-} */
-
-/* article div img{
-
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 200px;
-    max-width: 100%;
-    height: fit-content;
-    float: right;
-}  */
-
-/* .article__5 div img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 200px;
-    max-width: 100%;
-    height: fit-content;
-    float:initial;
-} */
-
-
 .contact__form{
+    display: flex;
     margin: 30px;
     font-family: 'Roboto', sans-serif;
+    
+    
 }
 
 
@@ -82,7 +54,7 @@ footer{
 
 
 
-.site__title{
+.site-title{
     background-color: rgb(165, 42, 42);
     font-family:'Playfair Display', serif;
     color: rgb(31, 32, 34);
@@ -91,22 +63,26 @@ footer{
     
 }
 .navegacion{
-    width: 1200px;
-    margin: 30px ;
+    padding: 15px;
+    margin: 30px;
     background-color: whitesmoke;
+    display: flex;
 
 }
+
+
 
 .navegacion ul{
     list-style: none;
+    
 }
 
-.navegacion__menu > li{
+.navegacion__in-flex__navegacion-menu > li{
     position: relative;
     display: inline-block;
 }
 
-.navegacion__menu > li > a{
+.navegacion__in-flex__navegacion-menu > li > a{
     display: block;
     padding: 8px 8px;
     color: grey;
@@ -114,20 +90,20 @@ footer{
     text-decoration: none;
     font-size: small;
 }
-.navegacion__menu li a:hover{
+.navegacion__in-flex__navegacion-menu li a:hover{
     color:red;   
 }
 
 /* Submenu 1*/
 
-.navegacion__menu__art1__submenu{
+.navegacion__in-flex__navegacion-menu__art1__submenu{
     position: absolute;
     background-color: rgb(52, 53, 53);;
     width: 120%;
     display: none;
     font-size: small;
 }
-.navegacion__menu__art1__submenu li a{
+.navegacion__in-flex__navegacion-menu__art1__submenu li a{
     display: block;
     padding: 15px;
     color: white;
@@ -136,18 +112,18 @@ footer{
     font-size: small;
 }
 
-.navegacion__menu li:hover .navegacion__menu__art1__submenu{
+.navegacion__in-flex__navegacion-menu li:hover .navegacion__in-flex__navegacion-menu__art1__submenu{
     display: block;
 }
 
 /* Submenu 2*/
 
-.navegacion__menu__art2__submenu{
+.navegacion__in-flex__navegacion-menu__art2__submenu{
     position: absolute;
     background-color: rgb(52, 53, 53);
     display: none;
 }
-.navegacion__menu__art2__submenu li a{
+.navegacion__in-flex__navegacion-menu__art2__submenu li a{
     display: block;
     padding: 15px;
     color: white;
@@ -156,19 +132,19 @@ footer{
     font-size: small;
 }
 
-.navegacion__menu li:hover .navegacion__menu__art2__submenu{
+.navegacion__in-flex__navegacion-menu li:hover .navegacion__menu__art2__submenu{
     display: block;
 }
 
 /* Submenu 3*/
 
-.navegacion__menu__art3__submenu{
+.navegacion__in-flex__navegacion-menu__art3__submenu{
     position: absolute;
     background-color: rgb(52, 53, 53);
     display: none;
     font-size: small;
 }
-.navegacion__menu__art3__submenu li a{
+.navegacion__in-flex__navegacion-menu__art3__submenu li a{
     display: block;
     padding: 15px;
     color: white;
@@ -177,17 +153,19 @@ footer{
     font-size: small;
 }
 
-.navegacion__menu li:hover .navegacion__menu__art3__submenu{
+.navegacion__in-flex__navegacion-menu li:hover .navegacion__in-flex__navegacion-menu__art3__submenu{
     display: block;
 }
+
 /* Submenu 4*/
-.navegacion__menu__art5__submenu{
+
+.navegacion__in-flex__navegacion-menu__art5__submenu{
     position: absolute;
     background-color: rgb(52, 53, 53);;
     display: none;
     font-size: small;
 }
-.navegacion__menu__art5__submenu li a{
+.navegacion__in-flex__navegacion-menu__art5__submenu li a{
     display: block;
     padding: 15px;
     color: white;
@@ -196,16 +174,17 @@ footer{
     font-size: small;
 }
 
-.navegacion__menu li:hover .navegacion__menu__art6__submenu{
+.navegacion__in-flex__navegacion-menu li:hover .navegacion__in-flex__navegacion-menu__art5__submenu{
     display: block;
 }
+
+
 
 /*Estilo tabla contacto*/
 
 .form{
-    width:340px;
-    height:300px;
-    
+    width: 100%;
+    max-width: 600px;
     background:#e6e6e6;
     border-radius:8px;
     margin: 30px;
@@ -213,31 +192,107 @@ footer{
     box-sizing:border-box;
     font-family: 'Roboto', sans-serif;;
     position:relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-input{width:100%;
+input{
+    
     padding:10px;
     box-sizing:border-box;
     background:none;
     outline:none;
     resize:none;
     border:0;
-    font-family: 'Roboto', sans-serif;;
-    transition:all .3s;border-bottom:2px solid #bebed2
+    font-family: 'Roboto', sans-serif;
+    transition:all .3s;border-bottom:2px solid #bebed2;
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
 }
 
 button{
     float:right;
+    display: flex;
     padding:8px 12px;
-    margin:8px 120px 0;
     font-family: 'Roboto', sans-serif;
     border:2px solid #78788c;
     background:0;color:#5a5a6e;
     cursor:pointer;
     transition:all .3s;
+    float:none; 
+
+    
 }
 
 footer{
     text-decoration:solid;
     font-family: 'Roboto', sans-serif;
+} 
+
+
+/*Diseño responsive*/
+
+/* description responsive */
+
+.voulcan-description{
+    display: flex;
+}
+
+.voulcan-description__in-flex{
+    flex: 1;
+    padding: 25px;
+}
+
+.voulcan-description__in-flex div{
+    
+    padding: 25px;
+    background-color: white;
+    margin: 20px;
+    
+}
+
+/* responsive articles */
+
+.description-articles{
+    max-width: 100%;
+    display: flex;
+}
+
+.description-articles__in-flex{
+    flex: 1;
+    padding: 25px;
+}
+
+.description-articles__in-flex div{
+    
+    padding: 25px;
+    background-color: white;
+    margin: 20px;
+    
+}
+
+/* responsive contact-form */
+
+
+
+
+/*Images responsive*/
+
+img{
+    max-width: 100%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 3px rgba(15, 15, 15, .5);
+    margin: auto;
+    position: relative;
+    display: block;
+    padding: 5px;
+    width: 300px;
+    height: 250px;
+    
 }
