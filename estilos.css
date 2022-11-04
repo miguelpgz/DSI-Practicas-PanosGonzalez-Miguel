@@ -20,6 +20,7 @@ p{
     padding-bottom: 5px;
     padding-top: 5px;
     
+    
 }  
 
 .voulcan__description{
@@ -33,14 +34,39 @@ p{
     
 }
 
-img{
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 300px;
-  max-width: 100%;
-  height: auto
-}
+
+
+/* .description__articles article div img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    max-width: 100%;
+    height: fit-content;
+    float: right;
+} */
+
+/* article div img{
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    max-width: 100%;
+    height: fit-content;
+    float: right;
+}  */
+
+/* .article__5 div img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    max-width: 100%;
+    height: fit-content;
+    float:initial;
+} */
+
 
 .contact__form{
     margin: 30px;
@@ -57,14 +83,15 @@ footer{
 
 
 .site__title{
-    background-color: brown;
+    background-color: rgb(165, 42, 42);
     font-family:'Playfair Display', serif;
     color: rgb(31, 32, 34);
     text-shadow: 2px 2px rgb(219, 205, 205);
     text-align: center;
+    
 }
 .navegacion{
-    width: 1800px;
+    width: 1200px;
     margin: 30px ;
     background-color: whitesmoke;
 
@@ -81,10 +108,11 @@ footer{
 
 .navegacion__menu > li > a{
     display: block;
-    padding: 15px 20px;
+    padding: 8px 8px;
     color: grey;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    font-size: small;
 }
 .navegacion__menu li a:hover{
     color:red;   
@@ -97,6 +125,7 @@ footer{
     background-color: rgb(52, 53, 53);;
     width: 120%;
     display: none;
+    font-size: small;
 }
 .navegacion__menu__art1__submenu li a{
     display: block;
@@ -104,6 +133,7 @@ footer{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    font-size: small;
 }
 
 .navegacion__menu li:hover .navegacion__menu__art1__submenu{
@@ -123,6 +153,7 @@ footer{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    font-size: small;
 }
 
 .navegacion__menu li:hover .navegacion__menu__art2__submenu{
@@ -135,6 +166,7 @@ footer{
     position: absolute;
     background-color: rgb(52, 53, 53);
     display: none;
+    font-size: small;
 }
 .navegacion__menu__art3__submenu li a{
     display: block;
@@ -142,23 +174,26 @@ footer{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    font-size: small;
 }
 
 .navegacion__menu li:hover .navegacion__menu__art3__submenu{
     display: block;
 }
 /* Submenu 4*/
-.navegacion__menu__art6__submenu{
+.navegacion__menu__art5__submenu{
     position: absolute;
     background-color: rgb(52, 53, 53);;
     display: none;
+    font-size: small;
 }
-.navegacion__menu__art6__submenu li a{
+.navegacion__menu__art5__submenu li a{
     display: block;
     padding: 15px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    font-size: small;
 }
 
 .navegacion__menu li:hover .navegacion__menu__art6__submenu{
@@ -170,6 +205,7 @@ footer{
 .form{
     width:340px;
     height:300px;
+    
     background:#e6e6e6;
     border-radius:8px;
     margin: 30px;
@@ -194,9 +230,14 @@ button{
     float:right;
     padding:8px 12px;
     margin:8px 120px 0;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
     border:2px solid #78788c;
     background:0;color:#5a5a6e;
     cursor:pointer;
     transition:all .3s;
+}
+
+footer{
+    text-decoration:solid;
+    font-family: 'Roboto', sans-serif;
 }
