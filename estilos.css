@@ -67,6 +67,7 @@ footer{
     margin: 30px;
     background-color: whitesmoke;
     display: flex;
+    
 
 }
 
@@ -233,6 +234,9 @@ button{
 footer{
     text-decoration:solid;
     font-family: 'Roboto', sans-serif;
+    background-color: white;
+    display: flex;
+    margin: 20px;
 } 
 
 
