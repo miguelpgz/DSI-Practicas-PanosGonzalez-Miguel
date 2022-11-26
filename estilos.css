@@ -180,28 +180,6 @@ footer{
 }
 
 
-
-/*Estilo tabla contacto*/
-
-.form{
-    width: 100%;
-    max-width: 600px;
-    background:#e6e6e6;
-    border-radius:8px;
-    margin: 30px;
-    padding:20px 30px;
-    box-sizing:border-box;
-    font-family: 'Roboto', sans-serif;;
-    position:relative;
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 input{
     
     padding:10px;
