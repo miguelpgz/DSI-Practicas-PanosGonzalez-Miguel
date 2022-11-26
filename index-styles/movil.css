@@ -33,6 +33,7 @@ p{
     margin: 30px;
     font-family: 'Roboto', sans-serif;
     
+    
 }
 
 
@@ -65,10 +66,6 @@ footer{
 .navegacion{
     padding: 15px;
     margin: 30px;
-    background-color: whitesmoke;
-    display: flex;
-    
-
 }
 
 
@@ -76,109 +73,40 @@ footer{
 .navegacion ul{
     list-style: none;
     
+    
 }
 
-.navegacion__in-flex__navegacion-menu > li{
+.navegacion__in-flex__navegacion-menu  li{
     position: relative;
     display: inline-block;
+    background-color:rgb(165, 42, 42);
+    margin: 5px;
+
+    padding: 4px 4px;
+
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: small;
 }
 
-.navegacion__in-flex__navegacion-menu > li > a{
-    display: block;
-    padding: 8px 8px;
-    color: grey;
+.navegacion__in-flex__navegacion-menu  > li > a{
+    display: flex;
+    padding: 4px 4px;
+    margin: 2px;
+    color: rgb(51, 48, 48);
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-size: small;
 }
 .navegacion__in-flex__navegacion-menu li a:hover{
-    color:red;   
+    color:rgb(196, 52, 52);   
 }
 
-/* Submenu 1*/
-
-.navegacion__in-flex__navegacion-menu__art1__submenu{
-    position: absolute;
-    background-color: rgb(52, 53, 53);;
-    width: 120%;
-    display: none;
-    font-size: small;
-}
-.navegacion__in-flex__navegacion-menu__art1__submenu li a{
-    display: block;
-    padding: 15px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    font-size: small;
-}
-
-.navegacion__in-flex__navegacion-menu li:hover .navegacion__in-flex__navegacion-menu__art1__submenu{
-    display: block;
-}
-
-/* Submenu 2*/
-
-.navegacion__in-flex__navegacion-menu__art2__submenu{
-    position: absolute;
-    background-color: rgb(52, 53, 53);
+/*ocultamos los submenus porque en dispositivo movil funcionan mal*/
+.navegacion__in-flex__navegacion-menu__art1__submenu,.navegacion__in-flex__navegacion-menu__art2__submenu,.navegacion__in-flex__navegacion-menu__art3__submenu,.navegacion__in-flex__navegacion-menu__art5__submenu{
     display: none;
 }
-.navegacion__in-flex__navegacion-menu__art2__submenu li a{
-    display: block;
-    padding: 15px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    font-size: small;
-}
-
-.navegacion__in-flex__navegacion-menu li:hover .navegacion__menu__art2__submenu{
-    display: block;
-}
-
-/* Submenu 3*/
-
-.navegacion__in-flex__navegacion-menu__art3__submenu{
-    position: absolute;
-    background-color: rgb(52, 53, 53);
-    display: none;
-    font-size: small;
-}
-.navegacion__in-flex__navegacion-menu__art3__submenu li a{
-    display: block;
-    padding: 15px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    font-size: small;
-}
-
-.navegacion__in-flex__navegacion-menu li:hover .navegacion__in-flex__navegacion-menu__art3__submenu{
-    display: block;
-}
-
-/* Submenu 4*/
-
-.navegacion__in-flex__navegacion-menu__art5__submenu{
-    position: absolute;
-    background-color: rgb(52, 53, 53);;
-    display: none;
-    font-size: small;
-}
-.navegacion__in-flex__navegacion-menu__art5__submenu li a{
-    display: block;
-    padding: 15px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    font-size: small;
-}
-
-.navegacion__in-flex__navegacion-menu li:hover .navegacion__in-flex__navegacion-menu__art5__submenu{
-    display: block;
-}
-
 
 input{
     

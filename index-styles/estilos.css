@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+
+h1,h2,h3{
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+p{
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: justify;
+    
+    
+}  
+
+/* .voulcan__description{
+    margin: 30px;
+    font-family: 'Roboto', sans-serif ;
+} */
+
+.description__articles{
+    margin: 30px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+
+
+
+footer{
+    margin: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.site-title{
+    background-color: rgb(165, 42, 42);
+    font-family:'Playfair Display', serif;
+    color: rgb(31, 32, 34);
+    text-shadow: 2px 2px rgb(219, 205, 205);
+    text-align: center;
+    
+}
+.navegacion{
+    padding: 15px;
+    margin: 30px;
+    background-color: whitesmoke;
+    display: flex;
+    
+
+}
+
+
+
+.navegacion ul{
+    list-style: none;
+    
+}
+
+.navegacion__in-flex__navegacion-menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.navegacion__in-flex__navegacion-menu > li > a{
+    display: block;
+    padding: 8px 8px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: small;
+}
+.navegacion__in-flex__navegacion-menu li a:hover{
+    color:red;   
+}
+
+/* Submenu 1*/
+
+.navegacion__in-flex__navegacion-menu__art1__submenu{
+    position: absolute;
+    background-color: rgb(52, 53, 53);;
+    width: 120%;
+    display: none;
+    font-size: small;
+}
+.navegacion__in-flex__navegacion-menu__art1__submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: small;
+}
+
+.navegacion__in-flex__navegacion-menu li:hover .navegacion__in-flex__navegacion-menu__art1__submenu{
+    display: block;
+}
+
+/* Submenu 2*/
+
+.navegacion__in-flex__navegacion-menu__art2__submenu{
+    position: absolute;
+    background-color: rgb(52, 53, 53);
+    display: none;
+}
+.navegacion__in-flex__navegacion-menu__art2__submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: small;
+}
+
+.navegacion__in-flex__navegacion-menu li:hover .navegacion__menu__art2__submenu{
+    display: block;
+}
+
+/* Submenu 3*/
+
+.navegacion__in-flex__navegacion-menu__art3__submenu{
+    position: absolute;
+    background-color: rgb(52, 53, 53);
+    display: none;
+    font-size: small;
+}
+.navegacion__in-flex__navegacion-menu__art3__submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: small;
+}
+
+.navegacion__in-flex__navegacion-menu li:hover .navegacion__in-flex__navegacion-menu__art3__submenu{
+    display: block;
+}
+
+/* Submenu 4*/
+
+.navegacion__in-flex__navegacion-menu__art5__submenu{
+    position: absolute;
+    background-color: rgb(52, 53, 53);;
+    display: none;
+    font-size: small;
+}
+.navegacion__in-flex__navegacion-menu__art5__submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: small;
+}
+
+.navegacion__in-flex__navegacion-menu li:hover .navegacion__in-flex__navegacion-menu__art5__submenu{
+    display: block;
+}
+
+
+
+
+
+input{
+    
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family: 'Roboto', sans-serif;
+    transition:all .3s;border-bottom:2px solid #bebed2;
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+}
+
+button{
+    float:right;
+    display: flex;
+    padding:8px 12px;
+    font-family: 'Roboto', sans-serif;
+    border:2px solid #78788c;
+    background:0;color:#5a5a6e;
+    cursor:pointer;
+    transition:all .3s;
+    float:none; 
+
+    
+}
+
+footer{
+    text-decoration:solid;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    display: flex;
+    margin: 20px;
+} 
+
+
+/*Diseño responsive*/
+
+/* description responsive */
+
+.voulcan-description{
+    display: flex;
+}
+
+.voulcan-description__in-flex{
+    flex: 1;
+    padding: 25px;
+}
+
+.voulcan-description__in-flex div{
+    
+    padding: 25px;
+    background-color: white;
+    margin: 20px;
+    
+}
+
+/* responsive articles */
+
+.description-articles{
+    max-width: 100%;
+    display: flex;
+}
+
+.description-articles__in-flex{
+    flex: 1;
+    padding: 25px;
+}
+
+.description-articles__in-flex div{
+    
+    padding: 25px;
+    background-color: white;
+    margin: 20px;
+    
+}
+
+
+
+
+
+
+/*Images responsive*/
+
+img{
+    max-width: 100%;
+    border-radius: 3px;
+    box-shadow: 0px 3px 3px rgba(15, 15, 15, .5);
+    margin: auto;
+    position: relative;
+    display: block;
+    padding: 5px;
+    width: 300px;
+    height: 250px;
+    
+}
